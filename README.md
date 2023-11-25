@@ -1,3 +1,4 @@
+![VERSION](https://img.shields.io/badge/Version-v1.1a_BETA-orange?style=flat-square&labelColor=white)
 # Text-adventure-game
 Welcome to an epic adventure, **where you'll lead a journey across mysterious lands 🌲, and village 🏘️ to reach an enigmatic Kingdom 🏰!**
 
