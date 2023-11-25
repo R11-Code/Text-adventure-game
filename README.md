@@ -10,6 +10,8 @@ Reach the Mysterious Kingdom 🏰
 # Get Started
 Get started with:
 
+__Clone Repository: [CLONE](https://github.com/R11-Code/Text-adventure-game.git)__
+
 ## Play Demo of the Game
 🎮 Play demo of the game at: *[COMING SOON]*
 
