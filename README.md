@@ -14,7 +14,7 @@ Get started with:
 __Clone Repository: [CLONE](https://github.com/R11-Code/Text-adventure-game.git)__
 
 ## Play Demo of the Game
-🎮 Play demo of the game at: *[COMING SOON]*
+🎮 Play demo of the game at: [https://r11-code.github.io/Text-adventure-game](https://r11-code.github.io/Text-adventure-game)
 
 > [!NOTE]
 > The game will be published at 26th, November 2023
