@@ -1,0 +1,133 @@
+/* Font */
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Poppins-Regular.ttf') format('truetype');
+}
+
+/* Reset CSS */
+html, body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  transition: .7s ease;
+}
+
+/* Container Styling */
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  transition: .5s ease;
+}
+
+.container h1 {
+  text-align: center;
+  color: #e9944f;
+  font-family: 'Poppins', Sans-Serif;
+  padding: 20px 0;
+}
+
+/* Output Styling */
+.output {
+  outline: 2px solid #333;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 99%;
+  height: 20vh;
+  overflow: scroll;
+}
+
+.output p {
+  margin: 3px;
+  font-weight: 600;
+  font-family: 'Poppins', Times New Roman0;
+  transition: all .3s ease;
+}
+
+.container .box {
+  display: inline-block;
+  transition: 3s ease;
+}
+
+.container .box h1 {
+  padding: 10px 15px;
+  border: 2px solid #333;
+  color: #77DD77;
+  border-radius: 11px;
+}
+
+.container .box i {
+  color: #77DD77;
+}
+
+.container .box i:hover, .btn:hover {
+  animation: bounceOut;
+  animation-duration: 3s;
+}
+
+.container .content {
+  animation: fadeIn;
+  animation-duration: 1.5s;
+}
+
+
+/* Choices Styling */
+.choices {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  animation: fadeOut;
+  animation-duration: 1s;
+}
+
+.choices button {
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #007bff;
+  border: 2px solid #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  box-shadow: 0 5px 0 #333;
+  font-size: 1.1em;
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+
+.choices button:active {
+  background-color: rgba(0,123,255,.5);
+  box-shadow: 0 2px 0 #333;
+  transition: all 0.5s;
+}
+
+/* Typing Animation Keyframes */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.typing {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: typing .5s steps(100, end);
+}
