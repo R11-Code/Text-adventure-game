@@ -1,0 +1,171 @@
+{
+  "story": [
+    {
+      "id": "Mulai",
+      "text": "Kamu terbangun ditengah hutan yang lebat dan gelap. Lalu, Kamu melihat sebuah penanda di sebuah pohon yang menunjukkan jalan ke sebuah kerajaan. Namun... pada tanda selanjutnya Kamu melihat ada sebuah kata “Janganlah kalian ke kerajaan itu jika kalian masih ingin hidup”...",
+      "choices": [
+        {
+          "choices_text": "Pergi ke kerajaan",
+          "move_to": "Petualangan"
+        }
+      ]
+    },
+    {
+      "id": "Petualangan",
+      "text": "Kamu mulai mengikuti jalan menuju ke kerajaan tanpa menghiraukan tanda di pohon tadi. Beberapa saat kemudian Kamu menemukan sebuah toko yang menjual senjata. Pemilik toko tersebut menawarimu sebuah pedang dan pelindung secara gratis. Apa yang akan Kamu pilih untuk melanjutkan perjalananmu ke kerajaan?",
+      "choices": [
+        {
+          "choices_text": "Ambil pedang",
+          "move_to": "Perjalanan_Ke_Kerajaan"
+        },
+        {
+          "choices_text": "Ambil pelindung",
+          "move_to": "Pelindung"
+        }
+      ]
+    },
+    {
+      "id": "Perjalanan_Ke_Kerajaan",
+      "text": "Setelah mendapatkan sebuah pedang Kamu melanjutkan kembali perjalananmu. Tibalah saatnya... MALAM HARI... Para monster pun muncul dari dalam hutan dan mencoba menyerangmu. Namun, Kamu melawan Kembali monster-monster itu hingga habis. Setelah itu Kamu berlari sekencang mungkin dan sedikit terluka. Kamu memutuskan untuk tidur sementara di perjalanan. Ada sebuah goa dan pohon. Apa yang akan Kamu pilih untuk beristirahat hingga pagi?",
+      "choices": [
+        {
+          "choices_text": "Sebuah pohon",
+          "move_to": "Sebuah_Pohon"
+        },
+        {
+          "choices_text": "Sebuah goa",
+          "move_to": "Sebuah_Goa"
+        }
+      ]
+    },
+    {
+      "id": "Pelindung",
+      "text": "Kamu melanjutkan perjalananmu dengan dibekali sebuah pelindung. saat malam hari, tiba-tiba... HUARS... SEBUAH MONSTER MUNCUL DIBELAKANGMU, Kamu BERLARI SECEPAT MUNGKIN DAN BERLINDUNG DARI SERANGAN MONSTER ITU. Hingga tibalah pagi hari monster itu telah hilang. Kamu tidak terluka sama sekali namun, kepalamu sakit karena tidak tidur semalaman.",
+      "choices": [
+        {
+          "choices_text": "Cari sebuah toko ramuan",
+          "move_to": "Ramuan"
+        },
+        {
+          "choices_text": "Tidur sebentar",
+          "move_to": "Tidur Sebentar"
+        },
+        {
+          "choices_text": "Tetap melanjutkan perjalanan hingga sampai ke kerajaan.",
+          "move_to": "Lanjutkan"
+        }
+      ]
+    },
+    {
+      "id": "Sebuah_Pohon",
+      "text": "Kamu memutuskan untuk beristirahat dibawah sebuah pohon sampai pagi hari... PAGI pun tiba. Kamu memutuskan untuk melanjutkan perjalananmu kesebuah kerajaan. Saat dalam perjalanan, kamu melihat sebuah benda bersinar sangat terang. Saat kamu dekati ternyata itu adalah sebuah harta karun peninggalan kerajaan yang kamu cari... Apa yang akan kamu lakukan selanjutnya?",
+      "choices": [
+        {
+          "choices_text": "Lanjutkan perjalanan",
+          "move_to": "Melanjutkan_Perjalanan"
+        },
+        {
+         "choices_text": "Lewati jalan pintas",
+         "move_to": "Jalan_Pintas"
+        }
+        ]
+    },
+    {
+      "id": "Melanjutkan_Perjalanan",
+      "text": "Perjalananmu dilanjutkan dengan penuh semangat. Tiba-tiba, kamu melihat sebuah desa kecil. Apakah kamu akan mampir atau melanjutkan perjalanan?",
+      "choices": [
+        {
+          "choices_text": "Mampir ke desa",
+          "move_to": "Pedesaan"
+        },
+        {
+          "choices_text": "Melanjutkan perjalanan ke kerajaan",
+          "move_to": "Kerajaan"
+        }
+      ]
+    },
+    {
+      "id": "Jalan_Pintas",
+      "text": "Kamu memutuskan untuk melewati jalan pintas. Namun, ternyata jalan ini penuh dengan rintangan. Apakah kamu akan melanjutkan atau mencari rute lain?",
+      "choices": [
+        {
+          "choices_text": "Melanjutkan perjalanan",
+          "move_to": "Tetap_Pada_Jalan_Pintas"
+        },
+        {
+          "choices_text": "Cari rute lain",
+          "move_to": "Cari_Jalan_Lain"
+        }
+      ]
+    },
+    {
+      "id": "Tetap_Pada_Jalan_Pintas",
+      "text": "Dengan tekad yang kuat, kamu melanjutkan melewati jalan pintas ini. Meskipun sulit, akhirnya kamu berhasil sampai ke kerajaan dengan cepat. Selamat!",
+      "choices": [
+        {
+          "id": "Masuk_Ke_Kerajaan",
+          "text": "Selamat datang di kerajaan! Kamu berhasil sampai dengan selamat. Petualanganmu di hutan penuh tantangan akhirnya berakhir."
+        }
+        ]
+    },
+    {
+      "id": "Cari_Jalan_Lain",
+      "text": "Kamu memilih untuk mencari rute lain. Setelah beberapa lama, kamu menemukan jalan yang lebih aman. Kamu berhasil melewati hutan dan tiba di kerajaan. Selamat!",
+      "choices": [
+        {
+          "id": "Masuk_Ke_Kerajaan",
+          "text": "Selamat datang di kerajaan! Kamu berhasil sampai dengan selamat. Petualanganmu di hutan penuh tantangan akhirnya berakhir."
+        }
+        ]
+    },
+    {
+      "id": "Pedesaan",
+      "text": "Dalam desa kecil, kamu menemukan banyak pedagang dan penduduk ramah. Apa yang akan kamu lakukan di desa ini?",
+      "choices": [
+        {
+          "choices_text": "Beli persediaan",
+          "move_to": "Beli_Persediaan"
+        },
+        {
+          "choices_text": "Bicara dengan penduduk",
+          "move_to": "Bertanya_Dengan_Penduduk"
+        }
+      ]
+    },
+    {
+      "id": "Beli_Persediaan",
+      "text": "Dengan cerdas, kamu membeli persediaan yang cukup untuk perjalananmu ke kerajaan. Kamu melanjutkan perjalanan dengan lebih siap.",
+      "choices": [
+        {
+          "choices_text": "Lanjutkan perjalanan",
+          "move_to": "Lanjutkan_Perjalanan"
+        }
+      ]
+    },
+    {
+      "id": "Bertanya_Dengan_Penduduk",
+      "text": "Penduduk memberimu informasi berguna tentang hutan dan kerajaan. Kamu merasa lebih siap untuk melanjutkan perjalananmu.",
+      "choices": [
+        {
+          "choices_text": "Lanjutkan perjalanan",
+          "move_to": "Lanjutkan_Perjalanan"
+        }
+      ]
+    },
+    {
+      "id": "Lanjutkan_Perjalanan",
+      "text": "Dengan pengetahuan baru, kamu melanjutkan perjalanan ke kerajaan. Semakin dekat, semakin terlihat megah kerajaan tersebut.",
+      "choices": [
+        {
+          "choices_text": "Akhirnya sampai di kerajaan",
+          "move_to": "Masuk_Ke_Kerajaan"
+        }
+      ]
+    },
+    {
+      "id": "Masuk_Ke_Kerajaan",
+      "text": "Selamat datang di kerajaan! Kamu berhasil sampai dengan selamat. Petualanganmu di hutan penuh tantangan akhirnya berakhir.",
+      "choices": []
+    }
+  ]
+}
