@@ -35,11 +35,12 @@ body {
   transition: .5s ease;
 }
 
-.container h1 {
+.container .title {
   text-align: center;
-  color: #e9944f;
+  color: cornflowerblue;
   font-family: 'Poppins', Sans-Serif;
   padding: 20px 0;
+  text-shadow: 1px 1px 0 rgba(53,113,234,1);
 }
 
 /* Output Styling */
@@ -66,17 +67,37 @@ body {
 }
 
 .container .box h1 {
-  padding: 10px 15px;
+  text-align: center;
+  padding: 10px 20px;
   border: 2px solid #333;
   color: #77DD77;
   border-radius: 11px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.7);
 }
 
-.container .box i {
+.container .box > i {
   color: #77DD77;
 }
 
-.container .box i:hover, .btn:hover {
+.container .box .reset {
+  padding: 5px 10px;
+  margin-left: 44vw;
+  color: #fff;
+  font-family: 'Poppins', Sans-Serif;
+  font-weight: bold;
+  background-color: #ff6961;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 rgba(0,0,0,0.7);
+  transition: .4s ease;
+}
+
+.container .box .reset:active {
+  background-color: lightcoral;
+  transition: .4s ease;
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.7);
+}
+
+.container .box > i:hover, .btn:hover {
   animation: bounceOut;
   animation-duration: 3s;
 }
@@ -85,7 +106,6 @@ body {
   animation: fadeIn;
   animation-duration: 1.5s;
 }
-
 
 /* Choices Styling */
 .choices {
@@ -130,4 +150,10 @@ body {
   overflow: hidden;
   width: 100%;
   animation: typing .5s steps(100, end);
+}
+
+@media screen and (max-width: 800px) {
+  .container .box .reset {
+    margin-left: 74%;
+  }
 }
