@@ -2,7 +2,7 @@
   "story": [
     {
       "id": "Mulai",
-      "text": "Kamu terbangun ditengah hutan yang lebat dan gelap. Lalu, Kamu melihat sebuah penanda di sebuah pohon yang menunjukkan jalan ke sebuah kerajaan. Namun... pada tanda selanjutnya Kamu melihat ada sebuah kata “Janganlah kalian ke kerajaan itu jika kalian masih ingin hidup”...",
+      "text": "Kamu terbangun ditengah hutan yang lebat dan gelap. Lalu, Kamu melihat penanda pada pohon yang menunjukkan jalan ke sebuah kerajaan. Namun... pada tanda selanjutnya Kamu melihat ada sebuah kata “Janganlah kalian ke kerajaan itu jika kalian masih ingin hidup”...",
       "choices": [
         {
           "choices_text": "Pergi ke kerajaan",
@@ -53,6 +53,40 @@
         {
           "choices_text": "Tetap melanjutkan perjalanan hingga sampai ke kerajaan.",
           "move_to": "Lanjutkan"
+        }
+      ]
+    },
+    {
+      "id": "Ramuan",
+      "text": "Kamu mencari toko ramuan di desa terdekat dan berhasil menemukannya. Pedagang ramuan menawarkan ramuan penyembuh yang dapat menyembuhkan sakit kepalamu. Apakah Kamu akan membeli ramuan tersebut?",
+      "choices": [
+        {
+          "choices_text": "Beli ramuan",
+          "move_to": "Beli_Ramuan"
+        },
+        {
+          "choices_text": "Tidak membeli, lanjutkan perjalanan",
+          "move_to": "Lanjutkan"
+        }
+      ]
+    },
+    {
+      "id": "Beli_Ramuan",
+      "text": "Dengan cerdas, Kamu membeli ramuan penyembuh dan mengonsumsinya. Sakit kepalamu mereda, dan Kamu merasa segar kembali. Setelah itu, Kamu melanjutkan perjalananmu ke kerajaan dengan lebih baik.",
+      "choices": [
+        {
+          "choices_text": "Lanjutkan perjalanan",
+        "move_to": "Lanjutkan_Perjalanan"
+        }
+      ]
+    },
+    {
+      "id": "Tidur_Sebentar",
+      "text": "Kamu memilih untuk tidur sebentar di tempat yang aman. Saat bangun, Kamu merasa segar dan siap melanjutkan perjalananmu ke kerajaan.",
+      "choices": [
+        {
+          "choices_text": "Lanjutkan perjalanan",
+          "move_to": "Lanjutkan_Perjalanan"
         }
       ]
     },
