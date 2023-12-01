@@ -5,9 +5,18 @@ const content = document.querySelector(".content");
 const playBtn = document.querySelector(".btn");
 const box = document.querySelector(".box");
 const h1 = document.querySelector(".title");
+const reset = document.querySelector(".reset");
 
 // Indeks dialog saat ini
 let currentDialogIndex = 0;
+
+reset.addEventListener("click", () => {
+  const confirmed = confirm("Apakah anda yakin ingin menghapus petualangan Anda?");
+  
+  if (confirmed) {
+    localStorage.removeItem("savedChoices");
+  }
+});
 
 // Fungsi untuk mengambil data dari JSON
 async function fetchData() {
@@ -120,6 +129,7 @@ playBtn.addEventListener("click", () => {
   setTimeout(() => {
     box.style.display = "none";
     content.style.display = "block";
+    reset.style.display = "none";
     
     startGame();
   }, 3001);
