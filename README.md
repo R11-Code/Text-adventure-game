@@ -12,12 +12,14 @@ Reach the Mysterious Kingdom 🏰
 Get started with:
 
 __Clone Repository: [CLONE](https://github.com/R11-Code/Text-adventure-game.git)__
+> [!IMPORTANT]
+> If you clone this Repo, and you published, __include ©R11 CODE and tag my GitHub__.
 
 ## Play Demo of the Game
 🎮 Play demo of the game at: [https://r11-code.github.io/Text-adventure-game](https://r11-code.github.io/Text-adventure-game)
 
 > [!NOTE]
-> The game will be published at 26th, November 2023
+> The game is __BETA__ version, it may cause some bug and errors.
 
 ### Credits
 1. R11 CODE _(For Codes)_
