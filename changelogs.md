@@ -1,6 +1,6 @@
-**_TEXT ADVENTURE GAME @PATCH_LOGS_**
+**_TEXT ADVENTURE GAME @CHANGELOGS_**
 
-### PATCH LOGS ###
+### CHANGELOGS ##
 
 BETA [v1.1a]
 - Game created
