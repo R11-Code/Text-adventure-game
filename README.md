@@ -21,7 +21,7 @@ __Clone the Repository: [CLONE](https://github.com/R11-Code/Text-adventure-game.
 🎮 Play demo of the game at: [https://r11-code.github.io/Text-adventure-game](https://r11-code.github.io/Text-adventure-game)
 
 ### Changelogs
-You can see the changelogs on: **[Changelogs]([https://r11-code.github.io/Text-adventure-game/changelogs](https://github.com/R11-Code/Text-adventure-game/blob/home/changelogs.md))**
+You can see the changelogs on: **[Changelogs]([https://r11-code.github.io/Text-adventure-game/changelogs](https://github.com/R11-Code/Text-adventure-game/blob/home/changelogs.md)**
 
 > [!NOTE]
 > The game is __BETA__ version, it may cause some bug and errors.
